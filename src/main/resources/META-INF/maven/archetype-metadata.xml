@@ -6,15 +6,13 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <fileSets>
-    <fileSet filtered="true" packaged="false" encoding="UTF-8">
+    <fileSet  filtered="true" packaged="false" encoding="UTF-8" >
       <directory/>
       <includes>
-        <include>model.json</include>
-        <include>openapi.json</include>
         <include>README.md</include>
+        <include>.gitignore</include>
       </includes>
     </fileSet>
-
 
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
       <directory>src/main/java</directory>
@@ -26,12 +24,14 @@
       <directory>src/main/resources</directory>
       <includes>
         <include>**/*.properties</include>
+        <include>**/*.xml</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" packaged="false" encoding="UTF-8">
       <directory>src/main/webapp</directory>
       <includes>
         <include>**/*.xml</include>
+        <include>**/*.jsp</include>
       </includes>
     </fileSet>
     <!-- TEST -->
