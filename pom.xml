@@ -4,7 +4,7 @@
 
     <groupId>com.apuntesdejava</groupId>
     <artifactId>jakartaee9-essentials</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <packaging>maven-archetype</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>
